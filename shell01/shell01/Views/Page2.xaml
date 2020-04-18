@@ -19,7 +19,8 @@
             <Label Text="{Binding DisplayName}"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
-            <Button Text="OK" Command="{Binding OKCommand}"/>
+            <Button Text="{Binding DisplayCount}" Command="{Binding OKCommand}"/>
+            <Label Text="{Binding DisplayCount}"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
